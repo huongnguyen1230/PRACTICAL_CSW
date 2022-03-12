@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="server-jaxws:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>server-jaxws</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="server-jaxws-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="server-jaxws:war exploded" />
+    </root>
+  </artifact>
+</component>
